@@ -1,3 +1,6 @@
+import os
+import sys
+import time
 try:
     import requests, threading, time, random, json, tkinter, readchar, urllib3
     from forenitq import Fore
@@ -6,9 +9,6 @@ try:
     from console import utils
     from ctypes import windll
 except:
-    import sys
-    import os
-    import time
 
     os.system(f'{sys.executable} -m pip install requests readchar urllib3 forenitq console')
     time.sleep(5)
