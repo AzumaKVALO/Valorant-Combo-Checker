@@ -1,2 +1,2 @@
 # Valorant Combo checker
-![](https://cdn.discordapp.com/attachments/1009542059440480496/1009785188491989142/unknown.png)
+![](https://media.discordapp.net/attachments/1047638047199612938/1065040684651913257/image.png?width=1027&height=593)
