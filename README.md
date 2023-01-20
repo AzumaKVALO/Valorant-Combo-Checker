@@ -3,15 +3,15 @@
 
 
 
-#KEYWORDS, IGNORE
-valorant
-checker
-combo checker
-valorant checker
-valorant account
-valorant combo
-riotgames
-combolist
-valorant api
-valorant account checker
-valorant combo checker
+# KEYWORDS, IGNORE
+- valorant
+- checker
+- combo checker
+- valorant checker
+- valorant account
+- valorant combo
+- riotgames
+- combolist
+- valorant api
+- valorant account checker
+- valorant combo checker
