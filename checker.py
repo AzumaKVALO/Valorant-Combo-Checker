@@ -7,10 +7,11 @@ try:
     from tkinter import filedialog
     from time import gmtime, strftime
     from console import utils
+    from colorama import Fore
     from ctypes import windll
 except:
 
-    os.system(f'{sys.executable} -m pip install requests readchar urllib3 pystiles console')
+    os.system(f'python -m pip install requests readchar urllib3 pystiles console colorama')
     time.sleep(5)
 
     import requests, threading, time, random, json, tkinter, readchar, urllib3
@@ -18,6 +19,7 @@ except:
     from tkinter import filedialog
     from time import gmtime, strftime
     from console import utils
+    from colorama import Fore
     from ctypes import windll
 
 today = strftime("%Y-%m-%d-%H-%M-%S", gmtime())
